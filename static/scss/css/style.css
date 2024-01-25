@@ -56,14 +56,14 @@
   font-weight: 700;
 }
 .card_wrapper .content_wrapper .statics p:first-child span img {
-  height: 20px;
+  height: 16px;
 }
 .card_wrapper .content_wrapper .statics p:last-child {
   color: hsl(215, 32%, 27%);
   font-weight: 600;
 }
 .card_wrapper .content_wrapper .statics p:last-child span img {
-  height: 20px;
+  height: 16px;
 }
 .card_wrapper .content_wrapper .creation {
   display: flex;
