@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.main_wrapper, .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main_wrapper {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card_wrapper {
+  background-color: hsl(216, 50%, 16%);
+  width: 400px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 15px;
+}
+.card_wrapper .image_show img {
+  width: 100%;
+  border-radius: 15px;
+}
+.card_wrapper .content_wrapper h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.card_wrapper .content_wrapper p {
+  color: hsl(215, 32%, 27%);
+}
+.card_wrapper .content_wrapper .statics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card_wrapper .content_wrapper .statics p {
+  margin-bottom: 0;
+}
+.card_wrapper .content_wrapper .statics p span {
+  margin-right: 5px;
+  padding: 0;
+}
+.card_wrapper .content_wrapper .statics p:first-child {
+  color: hsl(178, 100%, 50%);
+  font-weight: 700;
+}
+.card_wrapper .content_wrapper .statics p:first-child span img {
+  height: 20px;
+}
+.card_wrapper .content_wrapper .statics p:last-child {
+  color: hsl(215, 32%, 27%);
+  font-weight: 600;
+}
+.card_wrapper .content_wrapper .statics p:last-child span img {
+  height: 20px;
+}
+.card_wrapper .content_wrapper .creation {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid hsl(215, 32%, 27%);
+  gap: 20px;
+}
+.card_wrapper .content_wrapper .creation img {
+  height: 40px;
+  border: 3px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+.card_wrapper .content_wrapper .creation p {
+  margin-bottom: 0;
+  color: hsl(215, 32%, 27%);
+  font-weight: 600;
+}
+.card_wrapper .content_wrapper .creation p span {
+  color: hsl(0, 0%, 100%);
+}

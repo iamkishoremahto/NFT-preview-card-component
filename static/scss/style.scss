@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+
+$Soft_blue: hsl(215, 51%, 70%);
+$Cyan: hsl(178, 100%, 50%);
+$Very_dark_blue_main: hsl(217, 54%, 11%);
+$Very_dark_blue: hsl(216, 50%, 16%);
+$Very_dark_blue_font: hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+.main_wrapper,.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.main_wrapper{
+    background-color: $Very_dark_blue_main;
+}
+
+.card_wrapper{
+    background-color: $Very_dark_blue;
+    width: 400px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+
+    .image_show{
+      
+        img{
+            width: 100%;
+            border-radius: 15px;
+        }
+    }
+
+    .content_wrapper{
+        h3{
+            color: $White;
+            font-weight: 700;
+        }
+        p{
+            color: $Very_dark_blue_font;
+        }
+
+        .statics{
+            display: flex;
+            flex-direction: row;
+
+            align-items: center;
+            justify-content: space-between;
+
+            p{
+                margin-bottom: 0;
+                span{
+                    margin-right: 5px;
+                    padding: 0;
+
+                    
+                  
+
+                }
+                &:first-child{
+                    color: $Cyan;
+                    font-weight: 700;
+                    span{
+                        img{
+                            height: 20px;
+                        }
+                    }
+                }
+                &:last-child{
+                    color: $Very_dark_blue_font;
+                    font-weight: 600;
+                    span{
+                        img{
+                            height: 20px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .creation{
+            display: flex;
+            align-items: center;
+            padding-top: 20px;
+            margin-top: 20px;
+            border-top: 1px solid $Very_dark_blue_font;
+            gap: 20px;
+            img{
+                height: 40px;
+                border: 3px solid $White;
+                border-radius: 50%;
+            }
+            p{
+                margin-bottom: 0;
+                color: $Very_dark_blue_font;
+                font-weight: 600;
+                span{
+                    color: $White;
+                }
+            }
+        }
+    }
+
+}
