@@ -36,7 +36,7 @@
   font-weight: 700;
 }
 .card_wrapper .content_wrapper p {
-  color: hsl(215, 32%, 27%);
+  color: #8193ae;
 }
 .card_wrapper .content_wrapper .statics {
   display: flex;
@@ -59,7 +59,7 @@
   height: 16px;
 }
 .card_wrapper .content_wrapper .statics p:last-child {
-  color: hsl(215, 32%, 27%);
+  color: #8193ae;
   font-weight: 600;
 }
 .card_wrapper .content_wrapper .statics p:last-child span img {
@@ -70,7 +70,7 @@
   align-items: center;
   padding-top: 20px;
   margin-top: 20px;
-  border-top: 1px solid hsl(215, 32%, 27%);
+  border-top: 1px solid #8193ae;
   gap: 20px;
 }
 .card_wrapper .content_wrapper .creation img {
@@ -80,7 +80,7 @@
 }
 .card_wrapper .content_wrapper .creation p {
   margin-bottom: 0;
-  color: hsl(215, 32%, 27%);
+  color: #8193ae;
   font-weight: 600;
 }
 .card_wrapper .content_wrapper .creation p span {
